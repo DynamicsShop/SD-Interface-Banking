@@ -1,5 +1,55 @@
 ## SD Interface Banking Releases
 
+### 2.1.0
+
+#### Enhancements
+
+- BCv21 App - The ISV Licence Controller was added to SD Interface Banking. 
+
+- BCv21 App - A change was made to add a licence message on first install of SD Interface Banking to prompt the user to activate a free trial and to choose the Apply Default Setup action from the Role Centre to populate Bank Export/Import Setup. 
+
+- BCv21 App - A page was created to display all the Simply Dynamics Apps and subscription details for the tenant. 
+
+- BCv21 App - The Licence Expiry message/notification was updated to display the App Name as part of the message. 
+
+- BCv21 App - Permission set xml files were replaced with an AL Permission object. 
+
+- BCv21 App - ToolTips were updated to point to our new website and not the old. 
+
+- BCv21 App - The URL links in the About page were updated to point to our new website and not the old. 
+
+- BCv21 App - The About page was updated to display the Latest Version of the App and the URL link to SD Interface Banking on AppSource. 
+
+- BCv21 App - The default data codeunit was removed from running at App Install and is now surfaced as an action Apply Default Setup on the SD Interface Banking Role Centre. 
+
+- BCv21 App - BOI BACS CT files were added to SD Interface Banking.  
+
+- BCv21 App - The BOI setup was added to the SD Interface Banking Apply Default Setup function. 
+
+- BCv21 App - RBS Statement Import XMLports were added to the product. 
+
+- BCv21 App - The RBS Statement Import setup was added to the SD Interface Banking Apply Default Setup function. 
+
+- BCv21 App - Citibank files for Citibank BACS CT, SEPA CT, WIRE CT were added to the App. 
+
+- BCv21 App - The Citibank setup was added to the SD Interface Banking Apply Default Setup function. 
+
+- BCv21 App - A change was made to the Barclays SCT MT103 to export the Vendor name and Address instead of the Bank Address. 
+
+- BCv21 App - For the Barclays BACs Credit Transfer a change was made to stamp the Destination Account Name to the Vendor Name.  
+
+- BCv21 App - Changes were made to the PTX setup to allow for export of files using a Codeunit or an XMLport. This allows for flexibility for sites to create their own xmlports for export to csv to allow for easy implementation of site variations. 
+
+- BCv21 App - An option was added to the Bank Export/import Setup to flag a Danske BACS CT as a Faster Payment. 
+
+#### Bug Fixes
+
+- BCv21 App - A fix was made to the Direct Debit collection split amount functionality.  When the "Split Amount" action is selected on the DD Collection Entry and the DD Entry Status is validated as "File Exported", then the CLE Due Date is updated to the date as specified in the DD Split Amount Setup. 
+
+- BCv21 App - Barclays MT103 - The "Bank code" check was removed from the export check codeunit, 
+
+- BCv21 App - A fix was made to the Data Exchange Definition for the BOI Statement import. 
+
 ### 2.0.7
 
 #### Bug Fixes
