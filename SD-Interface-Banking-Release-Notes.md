@@ -8,15 +8,13 @@
 
 - BCv21 App - Citibank SEPA DD was added to SD Interface Banking.
 
-- BCv21 App - Citibank SEPA Statement files were added to SD Interface Banking.
-
 - BCv21 App - Citibank SEPA Statement was added to SD Interface Banking.
 
-- BCv21 App - NAT West Statement was added to SD Interface Banking.
+- BCv21 App - NatWest Statement was added to SD Interface Banking.
 
 - BCv21 App - NatWest SEPA Credit Transfer format was added to SD Interface Banking.
 
-- BCv21 App - BNP Credit Transfer and CTGBL files were added to SD Interface Banking.
+- BCv21 App - BNP SEPA Credit Transfer and SEPA CT GBP formats were added to SD Interface Banking.
 
 - BCv21 App - HSBC Credit Transfer BACS 18 Format was added to SD Interface Banking.
 
@@ -28,7 +26,7 @@
 
 - BCv21 App - A change was made to the PTX CT files to create Credit Transfer Register and Credit Transfer Entry records.
 
-- BCv21 App - Some extra nodes were added to the BOI SEPA Credit Transfer.
+- BCv21 App - Some extra nodes were added to the BOI SEPA Credit Transfer format.
 
 ### 2.1.0
 
