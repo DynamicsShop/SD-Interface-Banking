@@ -1,5 +1,35 @@
 ## SD Interface Banking Releases
 
+### 2.2.0
+
+#### Enhancements
+
+- BCv21 App - A change was made to the standard SEPA CAMT for Barclays SEPA CAMT. An event was added that removes a tag in the file. This change does not affect other banks using the SEPA CAMT format as those files will not have this tag. 
+
+- BCv21 App - Citibank SEPA DD was added to SD Interface Banking.
+
+- BCv21 App - Citibank SEPA Statement files were added to SD Interface Banking.
+
+- BCv21 App - Citibank SEPA Statement was added to SD Interface Banking.
+
+- BCv21 App - NAT West Statement was added to SD Interface Banking.
+
+- BCv21 App - NatWest SEPA Credit Transfer format was added to SD Interface Banking.
+
+- BCv21 App - BNP Credit Transfer and CTGBL files were added to SD Interface Banking.
+
+- BCv21 App - HSBC Credit Transfer BACS 18 Format was added to SD Interface Banking.
+
+- BCv21 App - MT940 and MT940N Statement file formats have been added to SD Interface Banking.
+
+#### Bug Fixes
+
+- BCv21 App - A change was made for NatWest SEPA CT. A Payment Type of 01 or 04 has been added to the Vendor Bank Account Card and when the payment journal is created the Payment Type field is added to the journal. Bank details are formatted in the outputted file depending on the value of the Payment Type field.
+
+- BCv21 App - A change was made to the PTX CT files to create Credit Transfer Register and Credit Transfer Entry records.
+
+- BCv21 App - Some extra nodes were added to the BOI SEPA Credit Transfer.
+
 ### 2.1.0
 
 #### Enhancements
