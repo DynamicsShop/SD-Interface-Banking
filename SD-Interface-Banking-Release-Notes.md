@@ -1,5 +1,15 @@
 ## SD Interface Banking Releases
 
+### 2.2.1
+
+#### Enhancements
+
+- AppSource App - A change was made to limit the SD ISV Tenant Subscriptions page to display just our SD ISV AppSource Apps and not other SD PTE Apps.
+
+#### Bug Fixes
+
+- AppSource App - When selecting SD Interface Banking activity pages in a the Tell Me/Search in a BCv22 environment, the activity pages were hanging.
+
 ### 2.2.0
 
 #### Enhancements
