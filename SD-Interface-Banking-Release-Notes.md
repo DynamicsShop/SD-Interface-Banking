@@ -1,5 +1,23 @@
 ## SD Interface Banking Releases
 
+### 3.0.1
+
+#### Enhancements
+
+- BCv14 App - A number of small fixes for H2H Connectivity were made.
+
+### 3.0.0
+
+#### Enhancements
+
+- BCv14 App - Blob Storage Setup Tables, Pages and Codeunits were created for H2H connectivity in SD Interface Banking.
+
+- BCv14 App - SFTP Interface tables, pages and codeunits were created for H2H connectivity in SD Interface Banking.
+
+- BCV14 App - An Azure Function Template was created to manage traffic between Blob Storage and SFTP.
+
+- BCv14 App - Cues were added to the SD Interface Banking Role Centre for inbound file list, outbound file list, blob storage setup, and SFTP connections.
+
 ### 2.2.1
 
 #### Enhancements
