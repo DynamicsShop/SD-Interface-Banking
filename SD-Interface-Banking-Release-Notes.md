@@ -1,5 +1,17 @@
 ## SD Interface Banking Releases
 
+### 3.0.2.1
+
+#### Enhancements
+
+- BCv14 App - A minor modification was made to the Citibank BACS DD format.
+
+### 3.0.2
+
+#### Enhancements
+
+- BCv14 App - The format for Citibank BACS DD was updated to output Bank Sort Code and Bank Account Number.
+
 ### 3.0.1
 
 #### Enhancements
