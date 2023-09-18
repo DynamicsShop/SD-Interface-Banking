@@ -1,5 +1,11 @@
 ## SD Interface Banking Releases
 
+### 3.0.2.6
+
+#### Enhancements
+
+- BCv14 App - A change was made to the namespace for the Citibank BACS Direct Debit format.
+
 ### 3.0.2.1
 
 #### Enhancements
