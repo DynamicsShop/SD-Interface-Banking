@@ -1,5 +1,11 @@
 ## SD Interface Banking Releases
 
+### 3.0.2.7
+
+#### Bug Fixes
+
+- BCv14 App - A fix was made to the Citibank BACS Direct Debit format. 
+
 ### 3.0.2.6
 
 #### Enhancements
