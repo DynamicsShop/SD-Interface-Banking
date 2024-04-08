@@ -34,6 +34,10 @@
 
 #### Enhancements
 
+- AppSource App - H2H Connectivity was added to SD Interface Banking. Blob Storage Setup tables, pages and codeunits were created. SFTP Interface tables, pages and codeunits were created. An Azure Function Template was created to manage traffic between Blob Storage and SFTP. Cues were added to the SD Interface Banking Role Centre for inbound file list, outbound file list, blob storage setup, and SFTP connections.
+
+- AppSource App - Citibank ACH DD was added to SD Interface Banking.
+
 - BCv14 App - Blob Storage Setup Tables, Pages and Codeunits were created for H2H connectivity in SD Interface Banking.
 
 - BCv14 App - SFTP Interface tables, pages and codeunits were created for H2H connectivity in SD Interface Banking.
