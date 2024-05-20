@@ -1,5 +1,31 @@
 ## SD Interface Banking Releases
 
+- AppSource App - A second AIB Statement Import Definition Exchange File was created and a new record added to the Bank Export/Import Setup. The definition of the AIB statement import can vary.
+
+- AppSource App - A format for AIB SEPA CT Payment for USD was created and a new record in the Bank Export/Import Setup was created. 
+
+- AppSource App - A SEPA CT format for HSBC was added and a new record added to the Bank Export/Import Setup.
+
+- AppSource App - A SEPA Urgent (Faster) CT format for HSBC was added and a new record added to the Bank Export/Import Setup.
+
+- AppSource App - A new Data Exchange Definition was created for Barclay's statement import and a new record added to the Bank Export/Import Setup.
+
+- AppSource App - A second Danske Bank Statement Import Definition Exchange File was created and a new record added to the Bank Export/Import Setup. The definition of the Danske Bank statement import can vary.
+
+- AppSource App - An SD Interface Banking Setup card was created. 
+
+- AppSource App - The SD Interface Banking format codes, populated when the Apply Default Setup action in the Setup card is selected, were normalised to use the individual bank's standard bank code.
+
+- AppSource App - A FactBox was added to the Bank Export/Import page to surface a column count to show the banks the format is applied on and allow drill through to the list of banks. The Faster Payments, and Decimal Indicator option fields were also added to this FactBox as was a link to the Blob Storage Setup.
+
+- AppSource App - The SD Banking Interface Assigned field was hidden on the Bank Export/Import Setup as the field is used to determine which records are standard and which have been populated by SD Interface Banking. 
+
+- AppSource App - Actions were surfaced in the SD Interface Banking Setup card to allow users to navigate to the H2H Blob Storage Setup and to the SFTP Connections Setup.
+
+- AppSource App - The links in the About Page were updated.
+
+- AppSource App - The logo in App was updated to the new logo.
+
 ### 3.0.2.7
 
 #### Bug Fixes
