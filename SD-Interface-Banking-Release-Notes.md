@@ -1,5 +1,15 @@
 ## SD Interface Banking Releases
 
+### 4.0.0.1
+
+#### Enhancements
+
+- AppSource App - A change was made to allow import of xml files using the standard SEPA statement import.
+
+### 4.0.0.0
+
+#### Enhancements
+
 - AppSource App - A second AIB Statement Import Definition Exchange File was created and a new record added to the Bank Export/Import Setup. The definition of the AIB statement import can vary.
 
 - AppSource App - A format for AIB SEPA CT Payment for USD was created and a new record in the Bank Export/Import Setup was created. 
