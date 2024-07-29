@@ -1,5 +1,15 @@
 ## SD Interface Banking Releases
 
+### 4.0.2
+
+#### Enhancements
+
+- AppSource App - Changes were made to the MT940 Statement Import format to handle "DN" line types.
+
+#### Bug Fixes
+
+- AppSource App - An SD Interface Banking Mapping Bank Account No. field was referenced in the MT940 Statement Import format. This field was not used in any of the other bank formats and is now marked as obsolete as it was causing an error on import of statements using the MT940 Statement Import format.
+
 ### 4.0.1
 
 #### Enhancements
