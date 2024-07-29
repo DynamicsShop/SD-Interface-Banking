@@ -1,12 +1,12 @@
 ## SD Interface Banking Releases
 
-### 4.0.0.1
+### 4.0.1
 
 #### Enhancements
 
 - AppSource App - A change was made to allow import of xml files using the standard SEPA statement import.
 
-### 4.0.0.0
+### 4.0.0
 
 #### Enhancements
 
