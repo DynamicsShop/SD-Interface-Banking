@@ -30,6 +30,8 @@
 
 - AppSource App - A change was made to allow import of xml files using the standard SEPA statement import.
 
+- BCv14 App - A change was made to Codeunit 43015111 SD-INBK CT pain.001.001.03 AIB to populate EndToEndId with Company Information Name.
+
 ### 4.0.0
 
 #### Enhancements
@@ -59,6 +61,8 @@
 - AppSource App - The links in the About Page were updated.
 
 - AppSource App - The logo in App was updated to the new logo.
+
+- BCv14 App - Integration to GoCardless was added to the BCv14 App.
 
 ### 3.0.2.7
 
