@@ -1,5 +1,45 @@
 ## SD Interface Banking Releases
 
+### 5.0.0
+
+#### Enhancements
+
+- AppSource App - The OIN Number for some of the SEPA Credit Transfers formats was picked up from the Payment Routing number on the Company Information Card, the Vat Registration No on the Company Information Card or the Bank Clearing Code on the Bank Account Card. A change was made to handle situations where Credit Transfers will be sent from more than one bank. The OIN is now picked up from the Transit No. on the Bank Account Card for the following XMLports 43015111 SDY INBK pain.001.001.03 AIB, 43015115 SEPA CT pain.001.001.09 AIB, xmlport 43015113 SDY INBK SEPA CT AIB USD, xmlport 43015121 SDY INBK SEPA CT BOI, xmlport 43015107 SDY INBK ACH DD CITI, xmlport 43015161 SDY INBK Citibank SEPA CT, xmlport 43015160 SDY INBK Citibank WIRECT, xmlport 43015131 SDY INBK SEPA CT Danske, and xmlport 43015101 SDY INBK pain.001.001.03 ULS.
+
+- AppSource App - For the SDBK-DABA-BACSCT format the mandatory requirement on IBAN was removed. Also, the Transit No is now picked up from the Bank Account Card and not the Vendor Bank Account.
+
+- AppSource App - A change was made to XMLport 43015111 SD-INBK CT pain.001.001.03 AIB to populate the EndToEndId with the Company Information Name.
+
+- AppSource App - A new SDBK-BOFI-CT-V09 format for BOI SEPA CT Pain 001.001.009 was created.
+
+- AppSource App - New XMlports were created for SEPA CT pain.001.001.09 AIB and SEPA DD pain.008.001.08 AIB. The EndToEndId in the SEPA CT pain.001.001.09 AIB is also populated with the Company Information Name.
+
+- AppSource App - The bank connectivity was reworked to allow for direct file transfer between Business Central and a bank's SFTP server.
+
+- AppSource App - The need to transfer bank files to/from blob storage and then to/from SFTP was removed. Bank files are now transferred directly using SFTP. 
+
+- AppSource App - H2H Tables and Functionality was made obsolete.
+
+- AppSource App - New tables and functionality added for banking connectivity - SDY INBK File API Request, SDY INBK File To Bank, SDY INBK File To Bank Archive and SDY INBK File From Bank.
+
+- AppSource App - All bank file transfers via SFTP are now per company.
+
+- AppSource App - The underlying structure of the bank file status KPIs were reworked. New tables and pages were created.
+
+- AppSource App - Three new cues were added to the Role Centre Files Pending, Files Processed and Files Rejected.
+
+- AppSource App - A new Bank File Status FactBox was created that shows the time the file was created, sent to the bank, acknowledged and either accepted or rejected.
+
+- AppSource App - UI Changes were made to the SFTP Connection Card.
+
+- AppSource App - Functionality was added to allow for manual upload of a bank statement to the Pending Bank Files list.
+
+- AppSource App - Functionality was added to log the manual creation of Credit Transfer and Direct Debit files to the File To Bank Archive table for files that will not be sent to the bank via SFTP.
+
+- AppSource App - Changes were made to the extension of the Bank Export/Import Setup List to allow for users to easily see which bank formats are active on their banks. 
+
+- AppSource App - A new action was added to the Setup Card called View Our Apps. This action opens a page on AppSource pointing to all our Simply Dynamics Ltd apps.
+
 ### 4.0.3
 
 #### Enhancements
