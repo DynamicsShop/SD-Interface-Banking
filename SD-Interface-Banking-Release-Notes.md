@@ -40,6 +40,8 @@
 
 - AppSource App - A new action was added to the Setup Card called View Our Apps. This action opens a page on AppSource pointing to all our Simply Dynamics Ltd apps.
 
+- AppSource App - The Lead Subscription Link from the Request Subscription action in the Product Activation page was updated.
+
 - AppSource App - The data inserted when the Apply Default Setup is chosen was updated.
 
 - AppSource App - Minor changes were made to the extended Customer List (22, List) and Vendor List (27, List) surfaced on the SD Interface Banking Activities. The default filters were updated.
