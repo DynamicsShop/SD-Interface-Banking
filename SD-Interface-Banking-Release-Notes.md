@@ -4,13 +4,13 @@
 
 #### Enhancements
 
+- AppSource App - The length of the Company Information Name in the EndToEndID for AIB Credit Transfer formats can not exceed 35 characters. The SEPA CT pain.001.001.03 AIB and SEPA CT pain.001.001.09 AIB formats were updated to reflect this.
+
 - AppSource App - A new Licence Install and Setup Wizard was created.
 
 - AppSource App - Changes were made to the Manage Subscriptions page.
 
 - AppSource App - The notification to activate the app, displayed on fresh install of SD Interface Banking, was added to the standard Business Central role centres.
-
-- AppSource App - The length of the Company Information Name in the EndToEndID for AIB Credit Transfer formats can not exceed 35 characters. The SEPA CT pain.001.001.03 AIB and SEPA CT pain.001.001.09 AIB formats were updated to reflect this.
 
 ### 5.0.0
 
