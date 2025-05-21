@@ -1,5 +1,13 @@
 ## SD Interface Banking Releases
 
+### 5.1.1
+
+#### Enhancements
+
+- AppSource App - A modification was made to the Setup Wizard.
+
+- AppSource App - A minor enhancement was made to the user experience flow on initial install of SD Interface Banking.
+
 ### 5.1.0
 
 #### Enhancements
