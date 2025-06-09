@@ -1,5 +1,15 @@
 ## SD Interface Banking Releases
 
+### 5.1.2
+
+#### Enhancements
+
+- AppSource App - A minor change was made to the Product Activation page.
+
+#### Bug Fixes
+
+- AppSource App - A customisation to the Recipient Bank Details for the NatWest SEAP CT format to use the Vendor Bank Branch No. and Bank Account No. was incorrectly applying to the CT Formats for the other Banks.
+
 ### 5.1.1
 
 #### Enhancements
