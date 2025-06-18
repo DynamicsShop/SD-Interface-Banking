@@ -1,5 +1,15 @@
 ## SD Interface Banking Releases
 
+### 5.1.3
+
+#### Enhancements
+
+- AppSource App - A fix was made to the BICFI node in Bank of Ireland CT SEPA pain.09 format.
+
+- AppSource App - A fix was made to the BICFI node in Allied Irish Banks CT SEPA pain.09 format.
+
+- AppSource App - A fix was made to the routine to add files generated using the PTX DD BACS format to the Archive Bank Files.
+
 ### 5.1.2
 
 #### Enhancements
