@@ -1,5 +1,11 @@
 ## SD Interface Banking Releases
 
+### 5.1.4
+
+#### Enhancements
+
+- AppSource App - The SD Interface Banking pages were translated to Dutch (Belgium), Dutch (Netherlands), and French (Belgium).
+
 ### 5.1.3
 
 #### Enhancements
