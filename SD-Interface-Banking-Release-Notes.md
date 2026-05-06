@@ -196,6 +196,8 @@
 
 - AppSource App - The logo in App was updated to the new logo.
 
+- AppSource App - An action on the setup card was surfaced to populate all available bank format setups.
+
 - BCv14 App - Integration to GoCardless was added to the BCv14 App.
 
 ### 3.0.2.7
