@@ -146,8 +146,8 @@
 
 - AppSource App - ToolTips were updated in the About, Product Activation, and Tenant Subscription pages.
 
-- AppSource App - The Banking Activities Card was updated to reflect the cues in the SD Interface Banking Role Centre.
-
+- AppSource App - The cues on the Banking Activities Card were updated as per the SD Interface Banking Role Centre cues.
+  
 ### 4.0.2
 
 #### Enhancements
