@@ -1,5 +1,43 @@
 ## SD Interface Banking Releases
 
+- A new SD Interface Banking Direct Debit Collections page was created. Only Direct Debit Collections created using the SD Interface Banking Direct Debit Collections will appear in this page. Direct Debit Collections run from the standard Business Central Direct Debit Collections will not display here. Likewise Direct Debit Collections created using the SD Interface Banking Direct Debit Collections page will not appear in the standard Business Central Direct Debit Collections page.
+
+- New functionality was created to aggregate DD collection transactions created from the SD Interface Banking Direct Debit Collections page. Using the SD Interface Banking Direct Debit Collections, rather than the standard Business Central Direct Debit Collections, you can include credit memos to reduce the overall transfer amount in the direct debit run for the Customer and aggregate DD Collection Entries by Customer, Mandate ID and Transfer Date. Grouping debits should reduce bank transaction fees.
+
+- A new SD Direct Debit Collections Entries page was created to display Transaction Entries for DD Collections created using the SD Interface Banking Direct Debit Collections page and to call the functionality to create aggregated DD Collections.
+
+- A new SD Direct Debit Collections Archive page was created to display Posted or Closed DD Collections created using the SD Interface Banking Direct Debit Collections page.
+
+- Functionality was added to the SD Direct Debit Collections Entries page to select a number of entries to reject at once rather than having to individually reject each line.
+
+- Functionality was added to prompt users to use the SD Interface Banking DD Collections page when they open the standard BC Direct Debit Collection page. 
+
+- An option was added to the SD Interface Banking Setup Card to apply the Payment Method set on the Customer Card to Credit Memos. The SD Interface Banking suggest DD collections filters on the Payment Method on the Customer Ledger Entry and not from the Customer Card. Credit Memos can be included in the SD Interface Banking DD collection to reduce the overall transaction amount. 
+
+- UI was reworked to allow all banking tasks to be achieved by working through the cues on the SD Interface Banking Role Centre and Activity page. 
+
+- Changes were made to the SD Interface Banking Role Centre to remove the standard Direct Debit Collections action. The Setup action now displays a list of the setup cards.
+
+- A new pared back SD Interface Banking activity group was created and surfaced on the Accountant, Business Manager and Account Receivables Administrator standard Role Centres.
+
+- The Bank Account List was extended to surface the DD OIN (Creditor No.), The CT OIN (Transit No.), DD Format, CT Format, and Statement Format fields.
+
+- The Customer List was extended to surface a new SD Interface Banking DD Detail FactBox. From this FactBox you can Suggest DD Collections, create mandates, view active and expiring mandates, and view any pending direct debits.
+
+- The Vendor List was extended to surface a new SD Interface Banking CT Detail FactBox. From this FactBox you can Suggest Vendor Payments, view the last payment date, the next payment date and view any pending payments.
+
+- A minor modification was made to the Vendor Bank Account Card extension to update tooltips for, and add a group to, the surfaced SD Interface Banking fields.
+
+- An option was added to the Setup Card which specifies if Batch Payment Journals workflow approvals are by-passed on export of payment files.
+
+- A Bank Account KPI was added to the SD Interface Banking Setup Card.
+
+- A BACS DD format was created for Citibank.
+
+- A new version of the AIB Statement Import was created.
+
+- A link to the User Guide was added to the About page and to the Manage Subscriptions page.
+
 ### 5.1.4
 
 #### Enhancements
