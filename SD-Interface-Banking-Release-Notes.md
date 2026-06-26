@@ -1,5 +1,23 @@
 ## SD Interface Banking Releases
 
+### 6.0.1
+
+#### Enhancements
+
+- A new BACS DD (GBP) format was created for Citibank.
+
+- The BACS DD (GBP) format was updated to allow for First and New BACS DD collections.
+
+- A change was made to the BACS CT format for Citibank, SDBK-CITI-BACSCT. The format was updated to use the short/local account format and not the IBAN format for the creditor's account.
+
+- The link in the View Our Apps action on the Setup Card was updated.
+
+- The Manage Subscriptions Page, accessed from the Setup Card, was updated.
+
+### 6.0.0
+
+#### Enhancements
+
 - A new SD Interface Banking Direct Debit Collections page was created. Only Direct Debit Collections created using the SD Interface Banking Direct Debit Collections will appear in this page. Direct Debit Collections run from the standard Business Central Direct Debit Collections will not display here. Likewise Direct Debit Collections created using the SD Interface Banking Direct Debit Collections page will not appear in the standard Business Central Direct Debit Collections page.
 
 - New functionality was created to aggregate DD collection transactions created from the SD Interface Banking Direct Debit Collections page. Using the SD Interface Banking Direct Debit Collections, rather than the standard Business Central Direct Debit Collections, you can include credit memos to reduce the overall transfer amount in the direct debit run for the Customer and aggregate DD Collection Entries by Customer, Mandate ID and Transfer Date. Grouping debits should reduce bank transaction fees.
