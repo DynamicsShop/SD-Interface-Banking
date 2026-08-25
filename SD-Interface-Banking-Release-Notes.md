@@ -1,5 +1,25 @@
 ## SD Interface Banking Releases
 
+### 6.1.0
+
+#### Enhancements
+
+- Telemetry was added to log when core functions of SD Interface Banking check the validity of the product licence.
+
+- Functionality was added to the logic of the SD INBK Create DD Collection Report to skip credit memos from the DD collection entries if the Credit Memo Amount is larger than the Invoice Amount. 
+
+- A Skip Excess Credit Memos Boolean was added to the SDY INBK Create DD Collection Report to specify if users want to include or exclude Credit Memos if the Credit Memo Amount is larger then the Invoice Amount in the SD INBK DD Collection. Skipped Credit Memos are listed when the DD Collection is created.
+
+- An update was made to the message displayed on the Activation page on initial installation of the App.
+
+- A fix was made to Citi DD ACK Matching when the OrgnlMsgId contains a Timestamp Suffix.
+
+- Compliance updates were made to Citibank DD and CT Validation. Debtor Name in the Citibank DD file and Target name in the CT file are now truncated to 18 characters. The DD export process for Citibank DD was updated so the remittance information contains only the source document reference instead of descriptive text. 
+
+#### Bug Fixes
+
+- An issue was fixed in the SDY INBK SEPA DD Pre. Src. Sum Codeunit where if only credit memo transactions were present for a customer the values were cached into the next customer.
+
 ### 6.0.1
 
 #### Enhancements
