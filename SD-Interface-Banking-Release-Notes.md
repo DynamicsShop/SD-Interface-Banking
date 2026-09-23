@@ -1,5 +1,19 @@
 ## SD Interface Banking Releases
 
+### 6.1.1
+
+#### Enhancements
+
+- A new SDBK-BOFI-DD-V08 format for BOFI SEPA DD Pain 001.001.008 was created.
+
+- A change was made to the SDBK-BOFI-DD and SDBK-BOFI-CT formats to create the files with a lower case file extension.  
+
+- A change was made to the SDBK-CITI-SEPACT format to populate the EndToEndID with the Document No. from the payment journal line rather than using the Company Name.
+
+#### Bug Fixes
+
+- A fix was made to the SDBK-BOFI-BACSCT format to populate the Branch No. 
+
 ### 6.1.0
 
 #### Enhancements
