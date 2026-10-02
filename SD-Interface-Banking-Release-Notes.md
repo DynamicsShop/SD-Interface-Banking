@@ -1,5 +1,11 @@
 ## SD Interface Banking Releases
 
+### 6.1.2
+
+#### Enhancements
+
+- A new format for Citibank BACS CT Faster Payments, SDBK-CITI-BACSCT-FP, was created.
+
 ### 6.1.1
 
 #### Enhancements
