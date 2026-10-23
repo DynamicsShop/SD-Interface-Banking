@@ -1,5 +1,33 @@
 ## SD Interface Banking Releases
 
+### 6.2.0
+
+#### Enhancements
+
+- Changes were made to the SDBK-CITI-BACSDD format.
+
+- A Bank File Mapping Interface Framework was introduced to separate bank-specific file interpretation from generic SFTP transport logic.
+
+- Replaced file correlation based on File No. with ISO20022 Message Id correlation for Citibank H2H processing in relation to acknowledgement, rejection or acceptance files received back from the bank.
+
+- Created a Citibank specific file mapping implementation using the new bank file mapping framework in relation to acknowledgement, rejection or acceptance files received back from the bank.
+
+- Moved Citibank specific XML processing responsibilities from the generic SFTP transport layer into the bank file mapping framework in relation to  acknowledgement, rejection or acceptance files received back from the bank.
+ 
+- Changes were made to the SDBK-AIBK-CT-V09 format. The creditor PstlAdr node is optional in the banking specification. However, if any creditor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the creditor PstlAdr node is now included only when all required address fields are present. 
+
+- Changes were made to the SDBK-AIBK-DD-V08 format. The debtor PstlAdr node is optional in the banking specification. However, if any debtor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the debtor PstlAdr node is now included only when all required address fields are present.
+
+- Changes were made to the SSDBK-BOFI-CT-V09 format. The creditor PstlAdr node is optional in the banking specification. However, if any creditor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the creditor PstrlAdr node is now included only when all required address fields are present.
+
+- Changes were made to the SDBK-BOFI-DD-V08 format. The debtor PstlAdr node is optional in the banking specification. However, if any debtor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the debtor PstrlAdr node is now included only when all required address fields are present.
+
+- An update was made to the Payment Journal cue on the Banking Role Centre to remove the flowfield on drill through of the cue.
+
+#### Bug Fixes
+
+- The logic behind the Create Journal only option when set to false on Posting Receipts from the DD Collections was reworked to ensure lines are removed from the journal on posting.
+
 ### 6.1.2
 
 #### Enhancements
