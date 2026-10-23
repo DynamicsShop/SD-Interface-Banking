@@ -16,11 +16,11 @@
  
 - Changes were made to the SDBK-AIBK-CT-V09 format. The creditor PstlAdr node is optional in the banking specification. However, if any creditor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the creditor PstlAdr node is now included only when all required address fields are present. 
 
-- Changes were made to the SDBK-AIBK-DD-V08 format. The debtor PstlAdr node is optional in the banking specification. However, if any debtor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the debtor PstlAdr node is now included only when all required address fields are present.
+- Changes were made to the SDBK-AIBK-DD-V08 format. The debtor PstlAdr node is optional in the banking specification. However, if any debtor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the debtor PstlAdr node is now included only when all required address fields are present. Where the Beneficiary bank is located in a non-EEA country/territory the debtor PstlAdr node is mandatory.
 
 - Changes were made to the SSDBK-BOFI-CT-V09 format. The creditor PstlAdr node is optional in the banking specification. However, if any creditor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the creditor PstrlAdr node is now included only when all required address fields are present.
 
-- Changes were made to the SDBK-BOFI-DD-V08 format. The debtor PstlAdr node is optional in the banking specification. However, if any debtor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the debtor PstrlAdr node is now included only when all required address fields are present.
+- Changes were made to the SDBK-BOFI-DD-V08 format. The debtor PstlAdr node is optional in the banking specification. However, if any debtor address information is provided, both Town/City and Country become mandatory. To prevent file rejections, the debtor PstrlAdr node is now included only when all required address fields are present. Where the Beneficiary bank is located in a non-EEA country/territory the debtor PstlAdr node is mandatory.
 
 - An update was made to the Payment Journal cue on the Banking Role Centre to remove the flowfield on drill through of the cue.
 
